@@ -37,12 +37,12 @@ A modern, user-friendly Pomodoro Timer application built with React and TypeScri
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/hbento/pomodoro_test.git
+git clone https://github.com/hbento/focus60.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd pomodoro_test
+cd focus60
 ```
 
 3. Install dependencies:
@@ -97,7 +97,7 @@ yarn dev
 ### Project Structure
 
 ```
-pomodoro_test/
+focus60/
 ├── public/
 │   ├── favicon.svg
 │   └── sounds/
@@ -111,6 +111,14 @@ pomodoro_test/
 ├── tsconfig.json
 └── vite.config.ts
 ```
+
+## Deployment
+This project is automatically deployed on Vercel using Vite.
+
+To deploy:
+- Push your changes to GitHub or use the Vercel CLI.
+- Vercel will automatically detect the Vite project and build it.
+- Ensure the `<base>` tag in `index.html` is set to "/" for correct routing.
 
 ## Contributing
 
