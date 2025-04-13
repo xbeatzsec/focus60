@@ -244,7 +244,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        Developed by <a href="https://github.com/hbento" target="_blank" rel="noopener noreferrer">Hernani Bento</a>
+        Developed by <a href="https://github.com/xbeatzsec" target="_blank" rel="noopener noreferrer">Hernani Bento</a>
       </footer>
     </div>
   )
